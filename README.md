@@ -33,5 +33,6 @@ It's simple, and I made mistakes in designing in the UI, so please forgive me...
 # If you want to build the code with PyInstaller module:
 The code can be build on Windows and Linux too, but you need to use the --add-data subcommand for customtkinter .json.
 If the path not working bellow use this command: ```pip show customtkinter, then at the end type \customtkinter;customtkinter!```
+Do the same with pykakasi! ```pip show pykakasi, then at the end of the directory just change it to \pykakasi;pykakasi!```
 ### Windows:
-> python -m PyInstaller --noconfirm --onedir --windowed --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\customtkinter;customtkinter" --icon=Icon.ico KanaRenshu.py
+> python -m PyInstaller --noconfirm --onedir --windowed --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\customtkinter;customtkinter" --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pykakasi;pykakasi" --icon=Icon.ico --noconsole KanaRenshu.py
