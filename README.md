@@ -28,12 +28,13 @@ It's simple, and I made mistakes in designing in the UI, so please forgive me...
     
 ```
 
-> This project created in 2 days in a University, so it's not a big deal, so use it as you please.
+> This project was created in 2 days at a University, so it's not a big deal, use it as you please.
 
 # If you want to build the code with PyInstaller module:
 The code can be build on Windows and Linux too, but you need to use the --add-data subcommand for customtkinter .json.
 If PyInstaller can't find the path bellow, use this command: ```pip show customtkinter, then at the end type \customtkinter;customtkinter!```
-Do the same with pykakasi! ```pip show pykakasi, then at the end of the directory just change it to \pykakasi;pykakasi!```
+Do the same with pykakasi! ```pip show pykakasi```, then at the end of the directory just change it to ```\pykakasi;pykakasi```!
 ### Windows:
 > python -m PyInstaller --noconfirm --onedir --windowed --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\customtkinter;customtkinter" --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pykakasi;pykakasi" --icon=Icon.ico --noconsole KanaRenshu.py
-**READ! THE BUILD FOLDER MUST CONTAIN THE BANNER.PNG, THEN THE PROGRAM WILL CRASH!!!***
+
+**READ ```BUILD SUPPORT.md```! THE BUILD FOLDER MUST CONTAIN THE ```BANNER.PNG```, OR THE PROGRAM WILL CRASH!!!***
