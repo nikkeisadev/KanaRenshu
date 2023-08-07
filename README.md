@@ -11,7 +11,7 @@ There will be an input field, that's where you need to write the answear, then h
 I really hate skids, but if you want to fix my bugs, or just want to develop it, yes you can, BUT
 you must mention my github name in the code!
 ### About the Code:
-It's simple, and I made mistakes in designing in the UI, so please forgive me...
+It's simple, and I made mistakes in designing the UI, so please forgive me...
 ```
 #Loading the banner, and starts displaying the interface.
         current_path = os.path.dirname(os.path.realpath(__file__))
