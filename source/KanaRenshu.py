@@ -20,6 +20,7 @@ import os
 #Basic variables, and all Hiragana Character in one String.
 answerIsRight = True
 hiragana_chart = "あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもやゆよらりるれろわゐゑをんゔ" 
+katakana_chart = 'アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヰヱヲンヴヷヸヹヺ"
 charFormat = pykakasi.kakasi()
 customtkinter.set_appearance_mode("dark")
 #If you want to debug in console...
