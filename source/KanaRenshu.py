@@ -1,21 +1,10 @@
-#██   ██  █████  ███    ██  █████      ██████  ███████ ███    ██ ███████ ██   ██ ██    ██ 
-#██  ██  ██   ██ ████   ██ ██   ██     ██   ██ ██      ████   ██ ██      ██   ██ ██    ██ 
-#█████   ███████ ██ ██  ██ ███████     ██████  █████   ██ ██  ██ ███████ ███████ ██    ██ 
-#██  ██  ██   ██ ██  ██ ██ ██   ██     ██   ██ ██      ██  ██ ██      ██ ██   ██ ██    ██ 
-#██   ██ ██   ██ ██   ████ ██   ██     ██   ██ ███████ ██   ████ ███████ ██   ██  ██████  
-#
 # Welcome to my project! Kana Renshu!
 # Github: https://github.com/users/nikkeisadev
 # Made by: nikkeisadev, with love!
 
 #Basicaly, the requirements are there, but what you must install is: pykakasi, customtkinter, and pillow!
-import random
-import pykakasi
-import time
-import os
-import customtkinter
+import random, pykakasi, time, os, customtkinter
 from PIL import Image
-import os
 
 #Basic variables, and all Hiragana Character in one String.
 answerIsRight = True
@@ -23,10 +12,10 @@ hiragana_chart = "あいうえおかがきぎくぐけげこごさざしじす�
 katakana_chart = 'アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヰヱヲンヴヷヸヹヺ"
 charFormat = pykakasi.kakasi()
 customtkinter.set_appearance_mode("dark")
-#If you want to debug in console...
 consoleDebug = '[CONSOLE]> '
+roundNumber, rightAnswears = None, None
 
-class App(customtkinter.CTk):
+class KanaRenshu(customtkinter.CTk):
     #If you borred of the background and want to make a bigger one, just change those values.
     width = 424
     height = 128
@@ -34,11 +23,11 @@ class App(customtkinter.CTk):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
-        self.title("Kana Renshū - The Kana trainer program, by: nikkeisadev")
+        self.title("Kana Renshū - The Japanese Learning Program")
         self.geometry(f"{self.width}x{self.height}")
         self.resizable(False, False)
 
-        #Only for console tester, I mean the clear screen.
+        #Only for console testers, clearing the Console.
         #It's better to have a clean screen after answearing.
         os.system('cls')
         selectedChar = random.choice(hiragana_chart)
@@ -96,5 +85,5 @@ class App(customtkinter.CTk):
             self.username_entry.grid(row=0, column=0, padx=30, pady=(98, 1))
 
 if __name__ == "__main__":
-    app = App()
+    app = KanaRenshu()
     app.mainloop()
