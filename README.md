@@ -1,7 +1,7 @@
 ![logo](https://i.ibb.co/SP7yKFb/kanarenshu-logo.jpg)
-# Kana Renshū
+# Kana Renshū 🌸 （。＾▽＾）
 Welcome to the repository of Kana Renshū!
-### What is Kana Renshū?
+### What is Kana Renshū? 🤔
 Kana Renshū is a Japanase Kana (Hiragana) trainer program, you can practice your skills in Japanese characters!
 Dakuten, and Handakuten characters are supported!
 *Katakana newly installed.*
@@ -11,14 +11,14 @@ Dakuten, and Handakuten characters are supported!
 
 **Katakana Characters:**
 > katakana_chart = 'アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヰヱヲンヴヷヸヹヺ"
-### How to use it?
+### How to use it? 🧪
 The program displays a Hiragana character, and then you need to write it in romaji.
 There will be an input field, that's where you need to write the answear, then hit the check button.
-### Can I use the Source Code of Kana Renshū?
+### Can I use the Source Code of Kana Renshū? 👨‍💻
 I really hate skids, but if you want to fix my bugs, or just want to develop it, yes you can, BUT
 you must mention my github name in the code!
-### Example image:
-### About the Code
+### Example image: 🎇
+### About the Code🎏
 It's simple, and I made mistakes in the UI, so please forgive me...
 ```
 #Loading the banner, and starts displaying the interface.
@@ -38,10 +38,10 @@ It's simple, and I made mistakes in the UI, so please forgive me...
 
 > This project created in 2 days in a University, so it's not a big deal, so use it as you please.
 
-# If you want to build the code with PyInstaller module:
+# If you want to build the code with PyInstaller module: 🏡
 The code can be build on Windows and Linux too, but you need to use the --add-data subcommand for customtkinter .json.
 If PyInstaller can't find the path bellow, use this command: ```pip show customtkinter, then at the end type \customtkinter;customtkinter!```
 Do the same with pykakasi! ```pip show pykakasi, then at the end of the directory just change it to \pykakasi;pykakasi!```
-### Windows:
+### Windows: (≧∇≦)ﾉ
 > python -m PyInstaller --noconfirm --onedir --windowed --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\customtkinter;customtkinter" --add-data "C:\Users\ !! YOUR USERNAME HERE !!\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\pykakasi;pykakasi" --icon=Icon.ico --noconsole KanaRenshu.py
 ```READ! THE BUILD FOLDER MUST CONTAIN THE BANNER.PNG IMAGE FILE, ELSE THE PROGRAM WILL CRASH!!!```
