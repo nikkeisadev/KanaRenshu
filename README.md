@@ -5,7 +5,9 @@ Welcome to the repository of Kana Renshū!
 Kana Renshū is a Japanase Kana (Hiragana) trainer program, you can practice your skills in Japanese characters!
 Dakuten, and Handakuten characters are supported!
 *Katakana newly installed.*
+**Hiragana Characters: **
 > hiragana_chart = "あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞ"
+**Katakana Characters:**
 > katakana_chart = 'アイウエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヰヱヲンヴヷヸヹヺ"
 ### How to use it?
 The program displays a Hiragana character, and then you need to write it in romaji.
