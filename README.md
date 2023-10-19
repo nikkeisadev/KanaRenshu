@@ -12,7 +12,6 @@ There will be an input field, that's where you need to write the answear, then h
 I really hate skids, but if you want to fix my bugs, or just want to develop it, yes you can, BUT
 you must mention my github name in the code!
 ### Example image:
-![example](https://i.ibb.co/WKQzH3r/kanarenshu-example.png)
 ### About the Code
 It's simple, and I made mistakes in the UI, so please forgive me...
 ```
