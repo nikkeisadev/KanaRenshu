@@ -1,4 +1,4 @@
-![logo](https://i.ibb.co/0Ynph84/banner.png)
+![logo](https://i.ibb.co/M62QJD8/logo.jpg)
 # Kana Renshū
 Welcome to the repository of Kana Renshū!
 ### What is Kana Renshū?
